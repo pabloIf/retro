@@ -39,7 +39,7 @@
                 </ul>
                 <div class="d-flex align-items-center">
                     <form class="d-flex me-3" role="search" method="get" action="{% url 'core:product_list' %}">
-                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" name="q" value="{{ query }}"/>
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" name="search_query" value="{{ search_query }}"/>
                         <button class="btn btn-dark" type="submit">Find</button>
                     </form>
                     <button type="button" class="btn btn-light position-relative" data-bs-toggle="modal" data-bs-target="#cartModal">
@@ -62,7 +62,7 @@
             <div class="row">
                 <div class="col-md-4">
                     <h5>RETRO</h5>
-                    <p>The best industrial shop</p>
+                    <p>The best retro shop</p>
                 </div>
                 <div class="col-md-4">
                     <h5>contacts</h5>
